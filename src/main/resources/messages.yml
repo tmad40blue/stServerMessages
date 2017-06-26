@@ -1,0 +1,171 @@
+# The prefix used for plugin messages
+prefix:
+    server: "&8[&3stServerMessages&8]: &7"
+
+# Various messages used by the plugin
+messages:
+    join: "&3%player% &8has joined the game"
+    leave: "&3%player% &8has left the game"
+    say: "&8[&3Server&8]: &7%message%"
+    me: "&3%player% &8* &7%message%"
+    no-perms: "&cYou don't have permission to do that!"
+    no-console: "&cYou must be a player to do that!"
+    no-args: "&cNo arguments given! Valid arguments are: %args%"
+    invalid-arg: "&c%arg% is not a valid argument! Valid arguments are: %args%"
+    tips-set-true: "Tips are now &2on"
+    tips-set-false: "Tips are now &4off"
+    ads-set-true: "Ads are now &2on"
+    ads-set-false: "Ads are now &4off"
+
+# Messages and options concerning deaths
+deaths:
+    names:
+        zombie: "Zombie"
+        baby-zombie: "Baby Zombie"
+        zombie-villager: "Zombie Villager"
+        baby-zombie-villager: "Baby Zombie Villager"
+        giant: "Giant"
+        enderman: "Enderman"
+        cave-spider: "Cave Spider"
+        spider: "Spider"
+        spider-jockey: "Spider Jockey"
+        chicken-jockey: "Chicken Jockey"
+        pig-zombie: "Pig Zombie"
+        baby-pig-zombie: "Baby Pig Zombie"
+        blaze: "Blaze"
+        wolf: "Wolf"
+        elder-guardian: "Elder Guardian"
+        guardian: "Guardian"
+        endermite: "Endermite"
+        ghast: "Ghast"
+        magma-cube: "Magmacube"
+        silverfish: "Silverfish"
+        wither-skeleton: "Wither Skeleton"
+        killer-bunny: "Rabbit of Caerbannog"
+        skeleton: "Skeleton"
+        huge-slime: "Huge Slime"
+        big-slime: "Big Slime"
+        small-slime: "Small Slime"
+        tiny-slime: "Tiny Slime"
+        slime: "Slime"
+        witch: "Witch"
+        wither: "Wither"
+        ender-dragon: "Ender Dragon"
+        iron-golem: "Iron Golem"
+        creeper: "Creeper"
+    arrow:
+        - "&3%victim% &8was shot by an arrow"
+    block-explosion:
+        - "&3%victim% &8blew up"
+        - "&3%victim% &8was blown up"
+        - "&3%victim% &8was blown to tiny bits"
+    contact:
+        - "&3%victim% &8died from a cactus. We know, that's lame"
+        - "&3%victim% &8poked a cactus, but the cactus poked back"
+        - "&3%victim% &8was pricked to death"
+        - "&3%victim% &8walked into a cactus"
+        - "&3%victim% &8was stabbed to death.. by a cactus"
+    drowning:
+        - "&3%victim% &8drowned"
+        - "&3%victim% &8is swimming with the fishes"
+        - "&3%victim% &8took a long walk off a short pier"
+    fall:
+        - "&3%victim% &8fell to his ultimate demise"
+        - "&3%victim% &8hit the ground too hard"
+        - "&3%victim% &8perished from a brutal fall"
+        - "&3%victim% &8succumbed to gravity"
+        - "&3%victim% &8finally experienced terminal velocity"
+        - "&3%victim% &8went skydiving, forgot the parachute"
+        - "&8We'll hold a moment of silence while we laugh at your falling death, &3%victim%"
+        - "&8Attempting a high-wire stunt yet again, &3%victim% &8slipped, and died"
+        - "&8Somehow tree tops are immune to gravity. &3%victim% &8is not"
+        - "&8Nice going &3%victim%, &8you've fallen. You're in a group that includes sand, and gravel - the losers of three"
+        - "&8We're here today to mourn the loss of &3%victim%&8. He is survived by his Nyan Cat and Creeper statues"
+        - "&8Like everything in life, &3%victim% &8chose the most average, unexciting, unadventurous death - falling. Whoopie"
+        - "&8Oh man that was hard fall &3%victim%&8! You ok? &3%victim%&8? How many fingers dude? Um, dude? Oh sh."
+        - "&3%victim% &8had a whoopsie-daisy!"
+        - "&3%victim% &8was testing gravity. Yup, still works"
+        - "&8Although &3%victim%'s &8body lies on the ground somewhere, the question stands. Will it blend?"
+    falling-block:
+        - "&3%victim% &8died to a falling block"
+    fire:
+        - "&3%victim% &8burned to death"
+        - "&3%victim% &8forgot how to stop, drop and roll"
+        - "&3%victim% &8spontaneiously combusted, or possibly walked into fire"
+        - "&3%victim% &8became a human torch. Not a very long-lasting one either"
+        - "&8Not only did you burn up &3%victim%&8, but you may have started a forest fire. Nice going"
+        - "&8You are not a replacement for coal, &3%victim%&8. I'm not sure that even death can teach you that lesson"
+        - "&8Taking himself out of the gene pool for us, &3%victim% &8burned to death. Good job!"
+    lava:
+        - "&3%victim% &8was killed by lava"
+        - "&3%victim% &8became obsidian"
+        - "&3%victim% &8took a bath in a lake of fire"
+        - "&3%victim% &8lost an entire inventory to lava. He died too, but man, losing your stuff's a bummer!"
+        - "&8I told you not to dig straight down &3%victim%&8. Now look what happened"
+        - "&8Look &3%victim%&8, I'm sorry I boiled you to death. I just wanted a friend. No one likes me. - Your Best Buddy, Lava"
+        - "&8Then &3%victim% &8said 'Take my picture in front of this pit of boiling, killer lava.'"
+    lightning:
+        - "&3%victim% &8was struck with a bolt of inspiration. Wait, never mind. Lightning"
+    poison:
+        - "&3%victim% &8died to poison"
+    potion:
+        - "&3%victim% &8died to a potion"
+    starvation:
+        - "&3%victim% &8starved to death"
+        - "&3%victim% &8starved to death. Because food is *so* hard to find"
+    suffocation:
+        - "&3%victim% &8suffocated"
+    suicide:
+        - "&3%victim% &8killed himself"
+        - "&3%victim% &8ended it all. Goodbye cruel world!"
+    thorns:
+        - "&3%victim% &8died to thorns"
+    void:
+        - "&3%victim% &8ceased to exist. Thanks void!"
+        - "&3%victim% &8passed the event horizon"
+    unknown:
+        - "&3%victim% &8died to the unknown"
+    wither:
+        - "&3%victim% &8died to a wither"
+    mobs:
+        any:
+            - "&3%victim% &8was ravaged by a &3%attacker%&8"
+            - "&3%victim% &8died after encountering a fierce &3%attacker%&8"
+            - "&3%victim% &8was killed by an angry &3%attacker%&8"
+            - "&8It was a horrible death for &3%victim% &8- ravaged by a &3%attacker%&8"
+            - "&8Dinner time for &3%attacker%&8. Cooked pork for the main course, &3%victim% &8for dessert"
+            - "&3%victim% &8went off into the woods alone and shall never return. Until they respawn"
+            - "&8While hunting, &3%victim% &8was unaware that a &3%attacker% &8was hunting him. Rest in pieces"
+            - "&8We have unconfirmed reports that &3%victim% &8was attacked by an &3%attacker%"
+            - "&8Look &3%victim%&8, I'm sorry I killed you. I just wanted a friend. No one likes me. - Your Best Buddy, &3%attacker%&8"
+            - "&8Dear &3%victim%&8, good luck finding your stuff. - &3%attacker%&8"
+            - "&8A %attacker% killed &3%victim%&8!"
+            - "&3%victim% &8was ravaged by a &3%attacker%&8"
+        creeper:
+            - "&3%victim% &8was creeper bombed"
+            - "&3%victim% &8hugged a creeper"
+            - "&8Sorry you died &3%victim%&8, a creeper's gonna creep!"
+            - "&3%victim% &8was testing a new creeper-proof suit. It didn't work"
+            - "&3%victim% &8was not involved in any explosion, nor are we able to confirm the existence of the 'creeper'. Move along"
+            - "&8Due to the laws of physics, the sound of a creeper explosion only reached &3%victim% &8after he died from it"
+            - "&8Hell hath no fury like a creeper scorned. We drink to thy untimely end, lord &3%victim%&8"
+            - "&8I'm sorry &3%victim%&8, that's the only birthday gift Creepers know how to give. :("
+        zombie:
+            - "&8Having not seen the plethora of &3zombie &8movies, &3%victim% &8was amazingly unaware of how to escape"
+            - "&8Poor &3%victim% &8- that &3zombie &8only wanted a hug! That's why his arms were stretched out"
+    pvp:
+        any:
+            - "&3%victim% &8was just murdered by &3%attacker%&8, using &3%weapon%&8"
+            - "&3%victim% &8died, by &3%attacker%&8's %weapon%"
+            - "&3%attacker% &8killed &3%victim% &8wielding &3%weapon%"
+            - "&8You think it was &3%attacker%&8 who killed &3%victim%&8? Nope, Chuck Testa"
+            - "&8It was a bitter end for &3%victim%&8, but &3%attacker% &8won victoriously"
+            - "&8Embarrassingly, &3%victim% &8died of fright before &3%attacker% &8could even raise his weapon"
+            - "&3%attacker% &8struck the mighty blow and ended &3%victim%&8"
+            - "&3%victim% &8never saw &3%attacker% &8coming"
+            - "&3%attacker% &8delivered the fatal blow on &3%victim%&8"
+            - "&3%victim%'s &8inventory now belongs to &3%attacker%&8"
+            - "&3%attacker% &8taught &3%victim% &8the true meaning of PVP"
+            - "&8What is this, like death number ten for &3%victim%&8? Ask &3%attacker%&8"
+        arrow:
+            - "&3%victim% &8was shot by &3%attacker%"

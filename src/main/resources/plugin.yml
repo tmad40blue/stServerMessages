@@ -1,0 +1,46 @@
+name: stServerMessages
+version: 2.0.2-SNAPSHOT
+description: Modify death messages, join/leave messages, tab header/footer, and much more!
+author: tmad40blue
+website: http://tmad40.blue/
+
+main: main.java.blue.tmad40.stservermessages.Main
+
+commands:
+    say:
+        description: Sends a message to the server
+        aliases: [broadcast]
+    me:
+        description: Sends a message to the server as yourself
+    stsm:
+        description: Base command
+        aliases: [stservermessages]
+        
+permissions:
+    stServerMessages.*:
+        description: Gives access to all plugin functions
+        children:
+            stServerMessages.say: true
+            stServerMessages.me: true
+            stServerMessages.reload: true
+            stServerMessages.commands: true
+            stServerMessages.preferences.ads: true
+            stServerMessages.preferences.tips: true
+    stServerMessages.say:
+        description: Gives access to /say
+        default: op
+    stServerMessages.me:
+        description: Gives access to /me
+        default: true
+    stServerMessages.reload:
+        description: Gives access to /stsm reload
+        default: op
+    stServerMessages.commands:
+        description: Allows players to run disallowed commands
+        default: op
+    stServerMessages.preferences.ads:
+        description: Allows players to set shop ad preferences
+        default: true
+    stServerMessages.preferences.tips:
+        description: Allows players to set tip preferences
+        default: true
