@@ -1,0 +1,43 @@
+# A random MOTD will be chosen from this list every time the server is pinged.
+motds:
+    - "Sample MOTD"
+
+# Tab list header/footer
+tab-list:
+    header: "Sample Header"
+    footer: "Sample Footer"
+    
+deaths:
+    counter-before-hidden: 3
+    counter-expire-interval: 5
+    
+# These commands won't be run unless the player has the permission stServerMessages.commands
+disallowed-commands:
+    - version
+    - ver
+    - plugins
+    - pl
+    - seed
+    - op
+    - deop
+    - stop
+
+announcements:
+    tips:
+        enabled: false
+        prefix: "&8[&3Tips&8]: &7"
+        interval: 10
+        delay: 0
+        messages:
+            - "Sample Tip #1"
+            - "Sample Tip #2"
+            - "Sample Tip #3"
+    ads:
+        enabled: false
+        prefix: "&8[&3Ads&8]: &7"
+        interval: 20
+        delay: 5
+        messages:
+            - "Sample Ad #1"
+            - "Sample Ad #2"
+            - "Sample Ad #3"

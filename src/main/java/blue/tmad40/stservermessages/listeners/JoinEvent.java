@@ -3,15 +3,13 @@ package main.java.blue.tmad40.stservermessages.listeners;
 
 import main.java.blue.tmad40.stservermessages.Main;
 import main.java.blue.tmad40.stservermessages.files.Config;
-import net.minecraft.server.v1_12_R1.IChatBaseComponent;
-import net.minecraft.server.v1_12_R1.PacketPlayOutPlayerListHeaderFooter;
-import org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer;
-import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import java.lang.reflect.Field;
+/*import net.minecraft.server.v1_12_R1.IChatBaseComponent;
+import net.minecraft.server.v1_12_R1.PacketPlayOutPlayerListHeaderFooter;
+import org.bukkit.craftbukkit.v1_12_R1.entity.CraftPlayer;*/
 
 
 public class JoinEvent implements Listener {
